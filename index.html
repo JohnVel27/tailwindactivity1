@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Kazakhstan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+<header class="bg-blue-700 text-white py-4 sticky top-0 z-50 shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-6">
+        <h1 class="text-3xl font-bold">Explore Kazakhstan</h1>
+
+        <!-- Mobile Menu Button -->
+        <button id="menu-btn" class="md:hidden text-3xl focus:outline-none" aria-label="Toggle Menu">
+            ☰
+        </button>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex gap-x-6">
+                <li><a href="#home" class="hover:underline">Home</a></li>
+                <li><a href="#geography" class="hover:underline">Geography</a></li>
+                <li><a href="#culture" class="hover:underline">Culture</a></li>
+                <li><a href="#cuisine" class="hover:underline">Cuisine</a></li>
+                <li><a href="#destinations" class="hover:underline">Destinations</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Mobile Dropdown Menu (Initially Hidden) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-blue-800 py-3 transition-all duration-300 ease-in-out">
+        <ul class="text-center">
+            <li><a href="#home" class="block py-2 hover:bg-blue-600">Home</a></li>
+            <li><a href="#geography" class="block py-2 hover:bg-blue-600">Geography</a></li>
+            <li><a href="#culture" class="block py-2 hover:bg-blue-600">Culture</a></li>
+            <li><a href="#cuisine" class="block py-2 hover:bg-blue-600">Cuisine</a></li>
+            <li><a href="#destinations" class="block py-2 hover:bg-blue-600">Destinations</a></li>
+        </ul>
+    </div>
+</header>
+
+    
+    
+
+   <!-- Kazakhstan Explore Section -->
+    <section id="home" class="w-full min-h-screen bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center text-white text-center p-6"
+    style="background-image: url('images/kazakhstan1.jpg');">
+
+    <h1 class="drop-shadow-2xl text-6xl sm:text-6xl md:text-9xl font-bold">
+        Welcome to Kazakhstan
+    </h1>
+
+    <div class="mt-10">
+        <a href="https://www.tripadvisor.com/Attraction_Review-g298251-d15574294-Reviews-Explore_Kazakhstan-Almaty.html"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition text-lg sm:text-xl">
+            Explore more
+        </a>
+    </div>
+
+    </section>
+
+
+
+        <!-- Geography Section -->
+    <section id="geography" class="relative bg-blue-600  bg-center text-white py-20 px-6 md:px-16 lg:px-32" style="background-image: url('images/kazakhstan-geography.jpg');">
+        <!-- Dark Overlay for Readability -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        
+        <!-- Content Container -->
+        <div class="relative z-10 max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">Geography of Kazakhstan</h2>
+            <p class="text-lg md:text-xl leading-relaxed">
+                Kazakhstan, the ninth-largest country in the world, spans over <span class="font-semibold">2.7 million square kilometers</span>, featuring vast <span class="font-semibold">steppes, towering mountains, expansive deserts, and large bodies of water</span> like the Caspian Sea. This diversity makes it one of the most ecologically unique countries.
+            </p>
+        </div>
+    
+        <!-- Grid Layout for Key Geographic Features -->
+        <div class="relative z-10 mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center flex">
+            <!-- Kazakh Steppe -->
+            <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-lg text-black ">
+                <img src="images/altai1.jpg" alt="altai">
+                <h3 class="text-xl font-bold mb-2">Kazakh Steppe</h3>
+                <p class="text-gray-700">
+                    Covering nearly one-third of the country, this massive grassland is home to rich nomadic traditions and diverse wildlife.
+                </p>
+            </div>
+    
+            <!-- Mountain Ranges -->
+            <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-lg text-black">
+                <img src="images/majories.jpg" alt="majories">
+                <h3 class="text-xl font-bold mb-2">Majestic Mountains</h3>
+                <p class="text-gray-700">
+                    The Altai and Tian Shan Mountains reach over 7,000 meters, offering stunning landscapes, glaciers, and rare wildlife like snow leopards.
+                </p>
+            </div>
+    
+            <!-- Caspian Sea -->
+            <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-lg text-black">
+                <img src="images/caspian.jpg" alt="caspian">
+                <h3 class="text-xl font-bold mb-2">Caspian Sea & Lakes</h3>
+                <p class="text-gray-700">
+                    Kazakhstan borders the world's largest inland sea, the Caspian, and is home to unique ecosystems such as Lake Balkhash.
+                </p>
+            </div>
+
+                <!-- Deserts -->
+                    <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-lg text-black place ">
+                        <img src="images/sand.webp" alt="sand">
+                        <h3 class="text-xl font-bold mb-2">Vast Deserts</h3>
+                        <p class="text-gray-700">
+                            The Kyzylkum and Betpak-Dala deserts feature stunning sand dunes, oases, and extreme climate conditions.
+                        </p>
+                    </div>
+            
+                    <!-- Rivers -->
+                    <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-lg text-black ">
+                        <img src="images/rivers.jpg" alt="sand">
+                        <h3 class="text-xl font-bold mb-2">Life-Giving Rivers</h3>
+                        <p class="text-gray-700">
+                            Major rivers like the Ural, Ili, and Syr Darya support agriculture, hydropower, and local settlements.
+                        </p>
+                    </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Culture Section -->
+    <section id="culture" class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-center text-gray-800 mb-8">
+                Kazakhstan's Rich Culture
+            </h2>
+            
+    
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Nomadic Lifestyle -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://www.visitmekazakhstan.com/wp-content/uploads/2018/02/NOMADTOUR.jpg" 
+                         alt="Nomadic Lifestyle" class="rounded-lg mb-4 w-full h-60 object-cover">
+                    <h3 class="text-xl font-bold mb-2">Nomadic Traditions</h3>
+                    <p class="text-gray-700">
+                        Kazakhstan's nomadic heritage is reflected in its yurt dwellings, horseback riding, and deep connection to nature.
+                    </p>
+                </div>
+    
+                <!-- Hospitality -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb9-qXe8Sf92ILLmoeYwrq0_5umNtR0hXVfg&s" 
+                         alt="Kazakh Hospitality" class="rounded-lg mb-4 w-full h-60 object-cover">
+                    <h3 class="text-xl font-bold mb-2">Warm Hospitality</h3>
+                    <p class="text-gray-700">
+                        Kazakhs are known for their generous hospitality, with traditions such as welcoming guests with tea and homemade treats.
+                    </p>
+                </div>
+    
+                <!-- Music & Dance -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Celebration_of_Nowruz_shared_by_several_countries%2C_Afghanistan%2C_Azerbaijan%2C_Russian_Federation%2C_Kazakhstan%2C_Uzbekistan%2C_Pakistan_and_Turkey._1.jpg/1200px-Celebration_of_Nowruz_shared_by_several_countries%2C_Afghanistan%2C_Azerbaijan%2C_Russian_Federation%2C_Kazakhstan%2C_Uzbekistan%2C_Pakistan_and_Turkey._1.jpg" 
+                         alt="Kazakh Music" class="rounded-lg mb-4 w-full h-60 object-cover">
+                    <h3 class="text-xl font-bold mb-2">Music & Dance</h3>
+                    <p class="text-gray-700">
+                        Traditional Kazakh music features instruments like the dombra and kobyz, often played during celebrations and festivals.
+                    </p>
+                </div>
+    
+                <!-- Traditional Clothing -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/ISS-34_Women_in_ceremonial_Kazakh_dress.jpg" 
+                         alt="Kazakh Clothing" class="rounded-lg mb-4 w-full h-60 object-cover">
+                    <h3 class="text-xl font-bold mb-2">Traditional Attire</h3>
+                    <p class="text-gray-700">
+                        Kazakh clothing, adorned with intricate embroidery and fur-lined coats, represents centuries of tradition and craftsmanship.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- See More Button -->
+            <div class="text-center mt-8">
+                <a href="https://www.gov.kz/article/64578?lang=en" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">
+                    See More
+                </a>
+            </div>
+        </div>
+    </section>
+    
+     <!--Cuisine Section-->
+     <section id="cuisine" class="w-full min-h-screen bg-cover bg-center flex items-center justify-center text-white px-6"
+     style="background-image: url('https://caspiannews.com/media/caspian_news/all_original_photos/1503299057_2399406_1503298772_853446besbarmak.jpg');">
+ 
+     <!-- Dark Overlay -->
+     <div class="bg-black bg-opacity-60 p-8 rounded-lg max-w-6xl text-center w-full">
+         <h2 class="text-3xl font-bold mb-6">Famous Delicacies</h2>
+ 
+         <!-- Grid Layout for Responsive Design -->
+         <div class="grid gap-6 md:grid-cols-3 lg:grid-cols-3">
+             
+             <!-- Beshbarmak -->
+             <div class="bg-white bg-opacity-20 p-4 rounded-lg shadow-lg hover:scale-105 transition">
+                 <img src="https://blog.remitly.com/wp-content/uploads/2023/09/kyrgyzstan-beshbarmak-scaled.jpg" 
+                      alt="Beshbarmak" class="w-full h-48 object-cover rounded-lg mb-4">
+                 <h3 class="text-xl font-semibold">Beshbarmak</h3>
+                 <p class="text-sm">Boiled meat and noodles.</p>
+             </div>
+ 
+             <!-- Kazy -->
+             <div class="bg-white bg-opacity-20 p-4 rounded-lg shadow-lg hover:scale-105 transition">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV3JPowHbD6chzXWsxIhy3OVoytmesJ9EKgw&s" 
+                      alt="Kazy" class="w-full h-48 object-cover rounded-lg mb-4">
+                 <h3 class="text-xl font-semibold">Kazy</h3>
+                 <p class="text-sm">Traditional horse meat sausage.</p>
+             </div>
+ 
+             <!-- Baursaki -->
+             <div class="bg-white bg-opacity-20 p-4 rounded-lg shadow-lg hover:scale-105 transition">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjg__Izz4NBeZz-6M_z6fJJp_9iOEXuU2hOg&s" 
+                      alt="Baursaki" class="w-full h-48 object-cover rounded-lg mb-4">
+                 <h3 class="text-xl font-semibold">Baursaki</h3>
+                 <p class="text-sm">Fried dough balls.</p>
+             </div>
+ 
+             <!-- Shubat -->
+             <div class="bg-white bg-opacity-20 p-4 rounded-lg shadow-lg hover:scale-105 transition">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxz5_9B8ar92E29ku1sH_URHowLiJ5hu_zDw&s" 
+                      alt="Shubat" class="w-full h-48 object-cover rounded-lg mb-4">
+                 <h3 class="text-xl font-semibold">Shubat</h3>
+                 <p class="text-sm">Fermented camel’s milk.</p>
+             </div>
+ 
+             <!-- Manti -->
+             <div class="bg-white bg-opacity-20 p-4 rounded-lg shadow-lg hover:scale-105 transition">
+                 <img src="https://www.themediterraneandish.com/wp-content/uploads/2024/08/TMD-Manti-Beauty-01-Horizontal.jpg" 
+                      alt="Manti" class="w-full h-48 object-cover rounded-lg mb-4">
+                 <h3 class="text-xl font-semibold">Manti</h3>
+                 <p class="text-sm">Steamed dumplings with meat filling.</p>
+             </div>
+ 
+             <!-- Kurt -->
+             <div class="bg-white bg-opacity-20 p-4 rounded-lg shadow-lg hover:scale-105 transition">
+                 <img src="https://cookingcounty.top/wp-content/uploads/2023/07/Kazakh-kurt.webp" 
+                      alt="Kurt" class="w-full h-48 object-cover rounded-lg mb-4">
+                 <h3 class="text-xl font-semibold">Kurt</h3>
+                 <p class="text-sm">Dried cheese balls.</p>
+             </div>
+ 
+         </div>
+     </div>
+ 
+ </section>
+ 
+
+
+
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="bg-gray-100 py-12 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-center mb-8 text-gray-800">
+                Top 5 Must-Visit Places
+            </h2>
+
+            <!-- Grid Layout -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Almaty -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://i0.wp.com/www.chowtraveller.com/wp-content/uploads/2018/07/DSCF7971-e1531808228357.jpg?fit=2000%2C1333&ssl=1" 
+                        alt="Almaty" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800">Almaty</h3>
+                        <p class="text-gray-600">A vibrant city with mountains, markets, and culture.</p>
+                    </div>
+                </div>
+
+                <!-- Astana (Nur-Sultan) -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://moderndiplomacy.eu/wp-content/uploads/2018/07/astana-20-years.jpg" 
+                        alt="Astana" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800">Astana (Nur-Sultan)</h3>
+                        <p class="text-gray-600">Modern capital known for its unique architecture.</p>
+                    </div>
+                </div>
+
+                <!-- Charyn Canyon -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://i.natgeofe.com/n/65b5d84b-c44e-41d0-8ee9-5295e1e6eba5/silkroad_shutterstock_1236828025_HR.jpg?w=2520&h=1680" 
+                        alt="Charyn Canyon" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800">Charyn Canyon</h3>
+                        <p class="text-gray-600">Stunning red rock formations and hiking trails.</p>
+                    </div>
+                </div>
+
+                <!-- Lake Kaindy -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://images.contentstack.io/v3/assets/blt1306150c2c4003bc/bltbc43558010722211/663af40ee5f2147215ee1547/00-5-facts-about-lake-kaindy-adobe-cropped.jpg" 
+                        alt="Lake Kaindy" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800">Lake Kaindy</h3>
+                        <p class="text-gray-600">Famous for its submerged forest and turquoise waters.</p>
+                    </div>
+                </div>
+
+                <!-- Mangystau Region -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpJA60mPXzY8cP4Ip3RD4lwKkqRhgqjtWSA&s" 
+                        alt="Mangystau Region" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800">Mangystau Region</h3>
+                        <p class="text-gray-600">Unique rock formations and breathtaking landscapes.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-700 text-white py-4 text-center">
+        <p>&copy; 2025 Explore Kazakhstan. All Rights Reserved.</p>
+        <p>Designed & Developed by <span class="font-semibold">VelDevX</span></p>
+    </footer>
+
+
+<script src="script/sript.js"></script>
+</html>
